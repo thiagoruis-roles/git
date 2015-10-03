@@ -1,0 +1,4 @@
+---
+# defaults file for git
+  git_global_user: "User name"
+  git_global_email: "User email"

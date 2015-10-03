@@ -1,0 +1,14 @@
+---
+  galaxy_info:
+    author: Thiago Ruis
+    description: Install git and defines global user and email
+    license: license MIT
+    min_ansible_version: 1.2
+    platforms:
+      - name: Ubuntu
+        versions:
+          - all
+    categories:
+      - development
+      - system
+    dependencies: []

@@ -1,0 +1,9 @@
+---
+  - name: Install Git
+    apt: pkg=git state=installed update_cache=true
+
+  - name: Set global user
+    shell: git config --global user.name " {{ git_global_user }} "
+  
+  - name: Set global email 
+    shell: git config --global user.email " {{ git_global_email }} "

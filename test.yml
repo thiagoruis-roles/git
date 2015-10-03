@@ -1,0 +1,5 @@
+---
+# Test playbook
+  - hosts: localhost
+    roles:
+      - git
